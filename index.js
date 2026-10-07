@@ -16,6 +16,7 @@ function combineUsers(...args) {
 
 module.exports = combineUsers;
 
+console.log(combineUsers(["Diana", "Ian"], ["Mercy", "Njoki"], ["Whitney"]));
 
 module.exports = {
   ...(typeof combineUsers !== 'undefined' && { combineUsers })
